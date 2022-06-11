@@ -59,7 +59,7 @@ class get_data_sets():
         print('创建完成')
         
 
-input_address = r"C:\Users\lee7f\Downloads\Ai_final_data\train_data"
-output_address = r"C:\Users\lee7f\Downloads\Ai_final_data\test_data"
+input_address = r"/content/workspace/training/images/train"
+output_address = r"/content/workspace/training/images/test"
 a = get_data_sets(input_address,output_address,0.8)
 a.run()
